@@ -16,6 +16,15 @@
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  display: none;
+}
+
 .left-layer {
   background: linear-gradient(270deg, rgba(36, 33, 27, 0) -1%, #222223 77.17%);
 }
@@ -23,21 +32,8 @@
 .bottom-layer {
   background: linear-gradient(180deg, rgba(36, 33, 27, 0) -1%, #222223 77.17%);
 }
-/* 
-@media (max-width: 768px) {
-  .left-layer {
-    background: linear-gradient(
-      360deg,
-    rgba(36, 33, 27, 0) -1%,
-      #222223 77.17%
-    );
-  }
-} */
 
-
-
-
-button{
+button {
   position: relative;
   overflow: hidden;
   background: var(--primary);
@@ -73,8 +69,3 @@ button:hover:after {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
-
-
-
-
