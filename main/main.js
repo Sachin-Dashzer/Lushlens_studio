@@ -43,26 +43,29 @@ window.addEventListener('scroll', function (event) {
 
 
 
+function img_slider(i) {
+    finalposition = -i * 100 + '%';
+    document.querySelector("#img-section .photograph-container ").style.transform = 'translateX(' + finalposition + ')';
+}
+
+
 
 const img_section = document.querySelectorAll("#img-section .btn-section button");
 const img_section_img = document.querySelectorAll("#img-section .photograph-container .photograph-box");
+let utemp = 0;
+
+
 
 img_section.forEach((item, i) => {
     img_section_img[i].style.transform = `translateX(${i * 100}%)`;
 
     item.addEventListener('click', () => {
-        finalposition = -i * 100 + '%';
-        document.querySelector("#img-section .photograph-container ").style.transform = 'translateX(' + finalposition + ')';
+
+        img_slider(i);
+        utemp = i;
     })
 })
 
-
-function img_slider(i) {
-    finalposition = -utemp * 100 + '%';
-    document.querySelector("#img-section .photograph-container ").style.transform = 'translateX(' + finalposition + ')';
-}
-
-let utemp = 0;
 
 setInterval(() => {
 

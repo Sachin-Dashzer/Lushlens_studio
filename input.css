@@ -69,3 +69,18 @@ button:hover:after {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+
+
+
+
+#login .loginboxes .form{
+
+    background-color: #fae94d4d;
+    backdrop-filter: blur(4px);
+
+}
+#login .loginboxes .form input{
+
+  width: 100%;
+}
