@@ -3,12 +3,6 @@ module.exports = {
   content: ["./main/*.html"],
   theme: {
     extend: {
-
-      fontFamily :{
-
-        heading : "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-      },
-
       colors: {
         primary: "#222223",
         secondary: "#ffffff",

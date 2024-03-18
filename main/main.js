@@ -15,7 +15,7 @@ function count_start(item, j) {
 }
 
 const elementv = document.querySelector("#count-container");
-const count = document.querySelectorAll(".counting h1");
+const count = document.querySelectorAll(".counting h1 span");
 
 let num = true;
 
@@ -77,3 +77,31 @@ setInterval(() => {
 
 }, 5000);
 
+
+
+
+const comment_section = document.querySelector(".comment-moving-box");
+const comments = document.querySelectorAll(".comment-moving-box .comment-box");
+let ctemp = 0;
+
+console.log(comment_section);
+
+// comments.forEach((item, i) => {
+
+//     item.style.transform = `translateX(${i * 100}%)`;
+// })
+
+setInterval(() => {
+    
+
+    if (comments.length == ctemp) {
+        ctemp = 0;
+    }
+
+
+    finalposition = -ctemp * 100 + '%';
+    comment_section.style.transform = 'translateY(' + finalposition + ')';
+
+    ctemp++;
+
+}, 5000);
