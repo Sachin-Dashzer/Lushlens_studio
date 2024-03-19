@@ -88,3 +88,46 @@ button:hover:after {
 
   width: 100%;
 }
+
+
+
+
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: 20s slide infinite linear;
+  flex-shrink: 0;
+}
+
+.logos-slide img {
+  width: 170px;
+  aspect-ratio: 3/2;
+  margin: 0 30px;
+}

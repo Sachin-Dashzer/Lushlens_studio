@@ -83,16 +83,8 @@ setInterval(() => {
 const comment_section = document.querySelector(".comment-moving-box");
 const comments = document.querySelectorAll(".comment-moving-box .comment-box");
 let ctemp = 0;
-
-console.log(comment_section);
-
-// comments.forEach((item, i) => {
-
-//     item.style.transform = `translateX(${i * 100}%)`;
-// })
-
 setInterval(() => {
-    
+
 
     if (comments.length == ctemp) {
         ctemp = 0;
@@ -105,3 +97,28 @@ setInterval(() => {
     ctemp++;
 
 }, 5000);
+
+
+
+let logobox = document.querySelectorAll("#companies .logos .logos-slide");
+let imgtemp = 1;
+
+logobox.forEach((item) => {
+
+
+    for(let i = 0; i< 16; i++){
+        item.innerHTML += `<img src="../assest/logo-${imgtemp}.png" alt="">`;
+        imgtemp++;
+    }
+
+
+    if(imgtemp == 32){
+        imgtemp = 1;
+    
+    }
+
+})
+
+
+
+
