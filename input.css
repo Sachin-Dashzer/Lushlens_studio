@@ -106,7 +106,6 @@ button:hover:after {
 
 .logos {
   overflow: hidden;
-  padding: 60px 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -129,5 +128,7 @@ button:hover:after {
 .logos-slide img {
   width: 170px;
   aspect-ratio: 3/2;
-  margin: 0 30px;
 }
+
+
+

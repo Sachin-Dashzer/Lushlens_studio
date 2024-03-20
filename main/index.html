@@ -13,7 +13,7 @@
     />
   </head>
   <body class="bg-primary text-secondary">
-    <header class="w-full h-[650px]">
+    <header class="w-full h-[600px] md:h-[650px]">
       <section
         id="header"
         class="w-full h-full block flex-wrap md:flex justify-between"
@@ -32,7 +32,9 @@
               />
             </div>
 
-            <h1 class="pl-9 md:p-0 inline-block mt-0 md:0">Welcome to</h1>
+            <h1 class="pl-9 pt-4 md:pt-0 md:p-0 inline-block mt-0 md:0">
+              Welcome to
+            </h1>
             <h2
               class="pl-9 md:p-0 inline-block text-secondary translate-x-8 md:translate-x-40"
             >
@@ -46,11 +48,12 @@
             </h2>
 
             <a href="#login">
-            <button
-              class="md:px-6 text-[12px] md:text-lg font-semibold md:w-[50%] md:py-3 px-3 py-3 block mx-auto my-0 mt-4 md:mt-6 border-2"
+              <button
+                class="md:px-6 text-[12px] md:text-lg font-semibold md:w-[50%] md:py-3 px-3 py-3 block mx-auto my-0 mt-4 md:mt-6 border-2"
+              >
+                Let's connect
+              </button></a
             >
-            Let's connect
-          </button></a>
           </div>
         </div>
         <div
@@ -74,99 +77,83 @@
     <main>
       <section
         id="count-container"
-        class="relative bg-fourth w-full h-48 mt-8 px-4 py-8"
+        class="relative w-full min-h-48 my-8 px-4 md:py-8"
       >
         <div
-          class="flex w-[80%] h-full items-center mx-auto my-6 justify-around"
+          class="flex flex-wrap w-[80%] h-full items-center mx-auto my-6 justify-around"
         >
           <div>
-            <ul class="text-lg capitalize leading-10 list-disc">
-              <li>Supporting digital business</li>
+            <ul
+              class="md:text-lg text-[17px] capitalize leading-7 md:leading-10 list-disc"
+            >
               <li>Branding Agencies</li>
               <li>Private Photoshoots</li>
+              <li>Supporting digital business</li>
             </ul>
           </div>
-          <div class="feature">
-            <div class="counting text-third text-6xl text-center">
-              <h1 class="inline font-bold"><span>0</span>k+</h1>
+          <div class="feature mt-8 md:mt-0">
+            <div class="counting text-third text-5xl md:text-6xl text-center">
+              <h1 class="inline font-semibold md:font-bold">
+                <span>0</span>k+
+              </h1>
             </div>
-            <h2 class="text-lg mt-2">Pictures Clicked</h2>
+            <h2 class="text-xl md:text-lg md:mt-2">Pictures Clicked</h2>
           </div>
-          <div class="feature">
-            <div class="counting text-third text-6xl text-center">
-              <h1 class="inline font-bold"><span>0</span>+</h1>
+          <div class="feature mt-8 md:mt-0">
+            <div class="counting text-third text-5xl md:text-6xl text-center">
+              <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
             </div>
-            <h2 class="text-lg mt-2">Brands Serviced</h2>
+            <h2 class="text-xl md:text-lg mt-2">Brands Serviced</h2>
           </div>
-          <div class="feature">
-            <div class="counting text-third text-6xl text-center">
-              <h1 class="inline font-bold"><span>0</span>+</h1>
+          <div class="feature mt-8 md:mt-0">
+            <div class="counting text-third text-5xl md:text-6xl text-center">
+              <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
             </div>
-            <h2 class="text-lg mt-2">Happy Clients</h2>
+            <h2 class="text-xl md:text-lg md:mt-2">Happy Clients</h2>
           </div>
         </div>
       </section>
 
-      <section id="features" class="px-32 w-full my-24">
-        <div
-          class="features-container bg-fourth border-2 border-third flex justify-between p-4 rounded-lg w-full h-[600px]"
+      <section id="companies" class="bg-blue-50 md:mb-28 pt-6 md:pt-12">
+        <h1
+          class="text-center text-2xl md:text-4xl font-serif text-primary underline"
         >
-          <div
-            class="feature-box w-2/5 h-full border-2 border-third overflow-hidden rounded-lg"
-          >
-            <img class="object-cover" src="../assest//camera.jpg" alt="" />
-          </div>
-          <div class="feature-box w-3/5 p-8">
-            <h1
-              class="text-6xl text-third font-serif border-setext-secondar border-b-2"
-            >
-              Our story behind the lens
-            </h1>
-            <p class="text-base mt-8 font-light text-secondary">
-              LushLens Studio, located in the dynamic city of Delhi, is a
-              distinguished Photography Studio specializing in White Background
-              and e-commerce Photography. Our commitment to perfection is at the
-              heart of our approach, characterized by meticulous attention to
-              detail throughout the entire photographic process. From the
-              initial framing of shots to the final touches, we uphold the
-              highest standards to ensure flawless and visually compelling
-              images.
-            </p>
-            <p class="text-base mt-8 font-light text-secondary">
-              Our unique aesthetic signature is defined by bright whites and
-              graphic composition, creating a visual impact that distinguishes
-              our work. We prioritize the use of soft, natural light, infusing a
-              natural and inviting quality into our photographs. Embracing a
-              collaborative ethos in production, we value the exchange of ideas
-              between our skilled photographers and esteemed clients,
-              considering it a vital element for a successful photoshoot. Beyond
-              image capture, we at LushLens Studio craft visual stories that
-              resonate, demonstrating our dedication to excellence, creative
-              collaboration, and a keen eye for detail. As a trusted partner, we
-              go the extra mile to bring our clients' visions to life through
-              the art of photography.
-            </p>
-          </div>
+          Trusted by Leading Businesses
+        </h1>
+        <div class="logos py-7 md:py-14">
+          <div class="logos-slide"></div>
+
+          <div class="logos-slide"></div>
         </div>
       </section>
 
-      <section id="img-section" class="my-20 px-32">
-        <div class="first-box flex justify-between items-end mb-12">
-          <h1 class="text-7xl border-b-2 capitalize font-serif text-third">
+      <section id="img-section" class="my-8 md:my-28 px-8 md:px-32">
+        <div class="first-box flex flex-wrap justify-between items-end mb-12">
+          <h1
+            class="text-[42px] md:text-7xl mb-6 md:mb-0 border-b-2 capitalize font-serif text-third"
+          >
             our portfolio
           </h1>
 
           <div class="btn-section">
-            <button class="px-2 py-1 font-semibold mr-2">E-Commerce</button>
-            <button class="px-2 py-1 font-semibold mr-2">Fashion</button>
-            <button class="px-2 py-1 font-semibold mr-2">Model</button>
-            <button class="px-2 py-1 font-semibold mr-2">Video Shoot</button>
+            <button class="px-2 py-1 font-semibold text-sm my-1 mr-2">
+              E-Commerce
+            </button>
+            <button class="px-2 py-1 font-semibold text-sm my-1 mr-2">
+              Fashion
+            </button>
+            <button class="px-2 py-1 font-semibold text-sm my-1 mr-2">
+              Model
+            </button>
+            <button class="px-2 py-1 font-semibold text-sm my-1 mr-2">
+              Video Shoot
+            </button>
           </div>
         </div>
 
-        <div class="second-box w-full h-[620px] overflow-hidden">
+        <div class="second-box w-full h-80 md:h-[620px] overflow-hidden">
           <div
-            class="photograph-container flex relative w-full h-full transition-all duration-1000 ease-in-out"
+            class="photograph-container flex flex-wrap relative w-full h-full transition-all duration-1000 ease-in-out"
           >
             <div
               class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
@@ -424,9 +411,204 @@
       </section>
 
       <section
-        class="reviews w-full h-[600px] mt-32 px-32 bg-fourth flex items-center justify-evenly"
+        id="service"
+        class="min-h-[600px] my-12 md:my-28 p-8 md:py-0 md:px-24 bg-black"
       >
-        <div class="client-box-1 w-[15%] h-[80%]">
+        <div
+          class="service-container w-full h-full flex flex-wrap gap-0 md:p-12"
+        >
+          <div class="services-box w-full md:w-3/5">
+            <h1
+              class="md:text-6xl text-4xl font-serif text-third bold mb-8 md:mb-12 font-semibold"
+            >
+              How it really works ?
+            </h1>
+
+            <div>
+              <details class="md:w-[70%] my-8">
+                <summary
+                  style="box-shadow: 0 0 10px var(--third)"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                >
+                  <h2 class="md:text-xl text-base">
+                    <span class="mr-4 text-third font-bold"> 1.</span> Tell us
+                    what you want to shoot
+                  </h2>
+                  <svg
+                    class="w-4 hidden h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#FFD43B"
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                    />
+                  </svg>
+                </summary>
+                <p class="p-8">
+                  Share product details and send reference images via
+                  email/WhatsApp. Specify desired photography services: product
+                  shoot, ghost mannequin, garment shoot, model photoshoot,
+                  360-degree, etc.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details class="w-full md:w-[70%] my-8">
+                <summary
+                  style="box-shadow: 0 0 10px var(--third)"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                >
+                  <h2 class="md:text-xl text-base">
+                    <span class="mr-4 text-third font-bold"> 2.</span> Ship or
+                    drop off products
+                  </h2>
+                  <svg
+                    class="w-4 hidden h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#FFD43B"
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                    />
+                  </svg>
+                </summary>
+                <p class="p-8">
+                  After confirming your order via email, WhatsApp, or call, ship
+                  your products to our Delhi studio using your preferred
+                  courier. Once the photoshoot is complete, we'll return your
+                  products.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details class="w-full md:w-[70%] my-8">
+                <summary
+                  style="box-shadow: 0 0 10px var(--third)"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                >
+                  <h2 class="md:text-xl text-base">
+                    <span class="mr-4 text-third font-bold"> 3.</span> Studio
+                    Product Photoshoot
+                  </h2>
+                  <svg
+                    class="w-4 hidden h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#FFD43B"
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                    />
+                  </svg>
+                </summary>
+                <p class="p-8">
+                  Upon receiving your products, we'll send a confirmation via
+                  WhatsApp or email. Subsequently, our skilled e-commerce
+                  photographers will capture professional images in our studio.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details class="w-full md:w-[70%] my-8">
+                <summary
+                  style="box-shadow: 0 0 10px var(--third)"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                >
+                  <h2 class="md:text-xl text-base">
+                    <span class="mr-4 text-third font-bold"> 4.</span> Review
+                    Photos. Pay. Download.
+                  </h2>
+                  <svg
+                    class="w-4 hidden md:inline-block h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#FFD43B"
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                    />
+                  </svg>
+                </summary>
+                <p class="p-8">
+                  After completing the work, we'll share watermarked images on
+                  Google Drive for your review. If satisfactory, we'll issue an
+                  invoice for payment. Upon receipt, we'll deliver the
+                  high-resolution images via WeTransfer or Google Drive.
+                </p>
+              </details>
+            </div>
+          </div>
+          <div
+            class="services-box hidden h-full md:flex align-bottom w-full md:w-2/5 relative"
+          >
+            <div
+              style="box-shadow: 0 0 20px var(--third)"
+              class="service-img w-full rounded-xl overflow-hidden h-[550px] border-4 border-third"
+            >
+              <img src="../assest/services.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="md:px-32 w-full my-16 md:my-28">
+        <div
+          class="features-container md:bg-fourth md:border-2 border-third flex flex-wrap-reverse justify-between p-4 rounded-lg w-full min-h-[600px] md:h-[600px]"
+        >
+          <div
+            class="feature-box w-full mt-8 md:mt-0 md:w-2/5 h-full border-2 border-third overflow-hidden rounded-lg"
+          >
+            <img class="object-cover" src="../assest//camera.jpg" alt="" />
+          </div>
+          <div class="feature-box w-full md:w-3/5 md:p-8">
+            <h1
+              class="text-[38px] mb-8 md:mb-8 md:text-6xl text-third font-serif border-b-2"
+            >
+              Our story behind the lens
+            </h1>
+            <p
+              class="text-sm md:text-base mt-2 md:mt-8 font-light text-secondary"
+            >
+              LushLens Studio, located in the dynamic city of Delhi, is a
+              distinguished Photography Studio specializing in White Background
+              and e-commerce Photography. Our commitment to perfection is at the
+              heart of our approach, characterized by meticulous attention to
+              detail throughout the entire photographic process. From the
+              initial framing of shots to the final touches, we uphold the
+              highest standards to ensure flawless and visually compelling
+              images.
+            </p>
+            
+            <p
+              class="text-sm md:text-base hidden md:block mt-2 md:mt-8 font-light text-secondary"
+            >
+              Our unique aesthetic signature is defined by bright whites and
+              graphic composition, creating a visual impact that distinguishes
+              our work. We prioritize the use of soft, natural light, infusing a
+              natural and inviting quality into our photographs. Embracing a
+              collaborative ethos in production, we value the exchange of ideas
+              between our skilled photographers and esteemed clients,
+              considering it a vital element for a successful photoshoot. Beyond
+              image capture, we at LushLens Studio craft visual stories that
+              resonate, demonstrating our dedication to excellence, creative
+              collaboration, and a keen eye for detail. As a trusted partner, we
+              go the extra mile to bring our clients' visions to life through
+              the art of photography.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="reviews w-full max-h-[600px] md:min-h-[600px] md:my-28 md:px-32 md:bg-black flex items-center justify-evenly"
+      >
+        <div class="client-box-1 hidden md:block w-[15%] h-[80%]">
           <div class="client-1 w-full flex justify-end">
             <div
               class="imgbox my-2 rounded-full border-[1px] border-third overflow-hidden w-[80px] h-[80px]"
@@ -457,60 +639,76 @@
           </div>
         </div>
 
-        <div class="review-box w-[70%] text-center">
-          <h6 class="text-lg my-4 text-secondary">150+ Happy Customers</h6>
-          <h1 class="font-serif font-semibold text-third mb-28 text-6xl">
+        <div class="review-box w-full md:w-[70%] text-center">
+          <h6 class="md:text-lg text-sm mt-8 md:mt-0 md:my-4 text-secondary">
+            150+ Happy Customers
+          </h6>
+          <h1
+            class="font-serif md:font-semibold text-third my-3 md:mt-0 md:mb-28 text-5xl md:text-6xl"
+          >
             Users Love Lushlens.
           </h1>
 
           <div
-            class="comment w-[65%] h-[255px] rounded-3xl mx-auto py-10 overflow-hidden bg-primary relative"
+            class="comment w-full md:w-[65%] h-[180px] md:h-[255px] rounded-3xl mx-auto py-4 md:py-10 overflow-hidden md:bg-primary relative"
           >
-            <div class="comment-moving-box w-full h-full px-[88px] pr-12 transition-all duration-300 ease-in-out absolute left-0">
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+            <div
+              class="comment-moving-box w-full h-full px-4 md:px-[88px] md:pr-12 transition-all duration-300 ease-in-out absolute left-0"
+            >
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   They have mastered white background photography, producing
                   crisp and clean images that showcase our products beautifully.
                   Their expertise and precision make them the ultimate choice
                   for achieving a professional look.
-                  <span class="font-normal font-2xl ml-4">- Pratibha</span>
+                  <span class="font-normal text-base md:text-xl ml-4"
+                    >- Pratibha</span
+                  >
                 </p>
               </div>
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   LushLens Studios exceeded expectations with exceptional
                   e-commerce photography, blending creativity and brand identity
                   seamlessly, transforming my online store. A game-changer for
                   e-commerce; highly recommended
-                  <span class="font-normal font-2xl ml-4">- Vikas Jacob</span>
+                  <span class="font-normal text-base md:text-xl ml-4"
+                    >- Vikas Jacob</span
+                  >
                 </p>
               </div>
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   Collaborated with LushLens Studios for lifestyle product
                   photography; their professionalism, creativity, and dedication
                   exceeded expectations. Go-to for top-notch photography.
-                  <span class="font-normal font-2xl ml-4"> -Vandana</span>
+                  <span class="font-normal text-base md:text-xl ml-4">
+                    -Vandana</span
+                  >
                 </p>
               </div>
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   LushLens Studios excels in Amazon product photography,
                   delivering flawless, high-quality images. Their attention to
                   detail and professionalism enhance brand presence.
-                  <span class="font-normal font-2xl ml-4"> - Arti Verma</span>
+                  <span class="font-normal text-base md:text-xl ml-4">
+                    - Arti Verma</span
+                  >
                 </p>
               </div>
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   Long-term association with LushLens; exceptional videography,
                   editing, and photography for all products. Highly recommend
                   their commendable work.
-                  <span class="font-normal font-2xl ml-4"> - Rashmi Soni</span>
+                  <span class="font-normal text-base md:text-xl ml-4">
+                    - Rashmi Soni</span
+                  >
                 </p>
               </div>
-              <div class="comment-box h-full mr-8">
-                <p class="text-lg font-extralight">
+              <div class="comment-box h-full md:mr-8">
+                <p class="text-sm md:text-lg font-extralight">
                   LushLens excels in e-commerce photography, offering unmatched
                   excellence with meticulous attention to detail, creativity,
                   and seamless communication. A go-to choice for impactful
@@ -522,7 +720,7 @@
               </div>
             </div>
 
-            <div class="left-quote absolute top-4 left-8">
+            <div class="left-quote md:block hidden absolute top-4 left-8">
               <svg
                 class="w-12 h-16"
                 xmlns="http://www.w3.org/2000/svg"
@@ -535,7 +733,7 @@
               </svg>
             </div>
 
-            <div class="right-quote absolute bottom-4 right-8">
+            <div class="right-quote md:block hidden absolute bottom-4 right-8">
               <svg
                 class="w-12 h-16"
                 xmlns="http://www.w3.org/2000/svg"
@@ -550,7 +748,7 @@
           </div>
         </div>
 
-        <div class="client-box-2 w-[15%] h-[80%]">
+        <div class="client-box-2 hidden md:block w-[15%] h-[80%]">
           <div
             class="imgbox my-2 rounded-full border-[1px] border-third overflow-hidden w-[150px] h-[150px]"
           >
@@ -581,20 +779,9 @@
         </div>
       </section>
 
-      <section id="companies" class="my-16">
-        <h1 class="text-center text-4xl font-serif text-third underline">Trusted by Leading Businesses</h1>
-        <div class="logos">
-          <div class="logos-slide">
-          </div>
-         
-          <div class="logos-slide">
-          </div>
-        </div>
-      </section>
-
       <section
         id="login"
-        class="w-full h-[600px] px-32 mb-32 backdrop-blur-md text-secondary"
+        class="w-full min-h-[600px] md:px-32 my-12 md:my-28 backdrop-blur-md text-secondary"
       >
         <div
           style="
@@ -603,30 +790,33 @@
             background-size: cover;
             backdrop-filter: blur(4px);
           "
-          class="loginboxes w-full h-full rounded-lg flex justify-evenly"
+          class="loginboxes w-full h-full pb-8 md:pb-0 border-[1px] border-secondary rounded-lg flex flex-wrap justify-evenly"
         >
-          <div class="img w-1/2 h-full px-12 py-16">
+          <div class="img w-full md:w-1/2 h-full px-8 md:px-12 py-8 md:py-16">
             <h1
-              class="text-6xl font-serif font-bold text-third capitalize leading-tight"
+              class="md:text-4xl text-2xl font-serif md:font-bold text-third capitalize leading-tight"
             >
-              Our Professional Services
+              Get Started with
+              <span class="md:text-6xl text-5xl leading-snug md:leading-relaxed"
+                >LushLens Today</span
+              >
             </h1>
-            <h4 class="text-2xl mt-6 capitalize font-normal">
-              Capturing Your Needs
+            <h4 class="md:text-2xl text-xl mt-3 md:mt-3 capitalize font-normal">
+              What makes us special :
             </h4>
 
-            <hr class="w-[50%] mt-4" />
+            <hr class="md:w-[55%] w-[91%] md:mt-4" />
 
-            <p class="my-8 text-third">
+            <p class="my-4 md:my-8 text-[13px] md:text-base text-third">
               Our dedication to excellence, creative collaboration, and a keen
               eye for detail position us as a trusted partner in bringing your
               vision to life through the art of photography.
             </p>
 
-            <h5 class="text-2xl">You can contact us on :</h5>
-            <hr class="w-[50%] mb-3 mt-4" />
+            <h5 class="md:text-2xl text-xl">You can contact us on :</h5>
+            <hr class="md:w-[50%] w-[94%] mb-3 md:mt-4" />
 
-            <h6 class="text-lg text-third">
+            <h6 class="md:text-lg text-base text-third">
               <svg
                 class="w-6 mr-1 h-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -639,7 +829,7 @@
               </svg>
               +91-9999448745
             </h6>
-            <h6 class="text-lg text-third">
+            <h6 class="md:text-lg text-base text-third">
               <svg
                 class="w-6 mr-1 h-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -654,16 +844,18 @@
             </h6>
           </div>
 
-          <div class="details w-1/2 h-full flex justify-center items-center">
+          <div
+            class="details w-full md:w-1/2 h-full md:py-12 flex justify-center items-center"
+          >
             <div
-              class="form w-[80%] bg-yellow-50 text-secondary rounded-lg px-12 py-6"
+              class="form w-[90%] md:w-[80%] md:bg-yellow-50 text-secondary rounded-lg px-4 md:px-12 py-6"
             >
               <h1 class="text-4xl font-serif text-center underline mb-8">
                 Let's talk
               </h1>
               <form action="" method="">
                 <label
-                  class="inline h-12 align-middle mr-4 text-xl font-normal text-third"
+                  class="inline h-12 align-middle mr-4 text-base md:text-xl font-normal text-third"
                   for="User_name"
                   >Your Name :</label
                 >
@@ -672,12 +864,12 @@
                   id="User_name"
                   type="text"
                   name="User_name"
-                  class="text-base h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
+                  class="text-base h-6 md:h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
                 />
                 <br />
 
                 <label
-                  class="inline h-12 align-middle mr-4 text-xl font-normal text-third"
+                  class="inline h-12 align-middle mr-4 text-base md:text-xl font-normal text-third"
                   for="User_email"
                   >Your Email :</label
                 >
@@ -686,12 +878,12 @@
                   type="email"
                   id="User_email"
                   name="User_email"
-                  class="text-base h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
+                  class="text-base h-6 md:h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
                 />
                 <br />
 
                 <label
-                  class="inline h-12 align-middle mr-4 text-xl font-normal text-third"
+                  class="inline h-12 align-middle mr-4 text-base md:text-xl font-normal text-third"
                   for="User_phone"
                   >Phone No :</label
                 >
@@ -700,22 +892,22 @@
                   type="number"
                   id="User_phone_number"
                   name="User_phone_number"
-                  class="text-base h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
+                  class="text-base h-6 md:h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
                 />
                 <br />
                 <label
-                  class="inline h-12 align-middle mr-4 text-xl font-normal text-third"
+                  class="inline h-12 align-middle mr-4 text-base md:text-xl font-normal text-third"
                   for="User_msg"
                   >Your purpose :</label
                 >
                 <input
                   type="text"
-                  class="text-base h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
+                  class="text-base h-6 md:h-8 bg-transparent border-b-[2px] border-primary outline-none mb-6 text-secondary"
                 />
 
                 <button
                   type="submit"
-                  class="md:w-[50%] md:py-3 px-4 py-2 md:text-base text-[12px] block mx-auto my-0 border-fourth mt-4 border-2 text-third"
+                  class="md:w-[50%] md:py-3 px-4 py-2 md:text-base text-[14px] block mx-auto my-0 border-fourth md:mt-4 border-2 text-third"
                 >
                   Send Massage
                 </button>
@@ -726,18 +918,25 @@
       </section>
     </main>
 
-    <footer class="w-full bg-fourth h-72 px-12">
-      <div id="footer" class="py-12 border-b-[1px] border-secondary h-48">
-        <h4 class="text-[2rem] underline text-third font-serif mb-8">
+    <footer class="w-full bg-black min-h-72 px-4 md:px-12">
+      <div
+        id="footer"
+        class="py-4 md:py-12 border-b-[1px] border-secondary min-h-48"
+      >
+        <h4
+          class="md:text-[2rem] text-xl underline text-third font-serif mb-4 md:mb-8"
+        >
           Ready to take your ecommerce business to the next level? Contact us
           today!
         </h4>
 
         <div>
-          <ul class="flex justify-start items-center">
-            <li class="mr-12 flex items-end">
+          <ul class="flex flex-wrap justify-start items-center">
+            <li
+              class="mr-12 text-sm md:text-balance mb-3 flex align-center items-end"
+            >
               <svg
-                class="w-6 mr-2 h-6 inline-block"
+                class="md:w-6 w-8 mr-2 md:h-6 h-10 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
               >
@@ -745,9 +944,9 @@
                   fill="#FFD43B"
                   d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
                 /></svg
-              >E 6A Sangam Vihar, New Delhi 110080
+              >250, Sant Nagar, East Of Kailash New Delhi-110065
             </li>
-            <li class="mr-12 flex items-end">
+            <li class="mr-12 text-sm mb-3 flex align-center items-end">
               <svg
                 class="w-6 mr-2 h-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -759,7 +958,7 @@
                 /></svg
               >info@lushlensstudio.com
             </li>
-            <li class="mr-12 flex items-end">
+            <li class="mr-12 text-sm mb-3 flex align-center items-end">
               <svg
                 class="w-6 mr-2 h-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -771,7 +970,7 @@
                 /></svg
               >+91-9999448745
             </li>
-            <li class="mr-12 flex items-end">
+            <li class="mr-12 text-sm mb-3 flex align-center items-end">
               <svg
                 class="w-6 mr-2 h-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"

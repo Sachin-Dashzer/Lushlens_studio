@@ -21,16 +21,21 @@ let num = true;
 
 window.addEventListener('scroll', function (event) {
 
-    if (this.window.scrollY >= 300 || this.window.scrollY <= 400) {
+
+    if (this.window.scrollY >= 350 && this.window.scrollY <= 450) {
         if (num === true) {
+            console.log(this.window.scrollY);
+
             count_start(count[0], 10);
             count_start(count[1], 200);
             count_start(count[2], 150);
         }
 
+
+
+            num = false;
     }
 
-    num = false;
 });
 
 
@@ -107,7 +112,7 @@ logobox.forEach((item) => {
 
 
     for(let i = 0; i< 16; i++){
-        item.innerHTML += `<img src="../assest/logo-${imgtemp}.png" alt="">`;
+        item.innerHTML += `<img class="mx-4 md:mx-8" src="../assest/logo-${imgtemp}.png" alt="">`;
         imgtemp++;
     }
 
