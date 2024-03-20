@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-primary text-secondary">
-    <header class="w-full h-[600px] md:h-[650px]">
+  <body class="bg-black text-secondary">
+    <header class="w-full bg-primary h-[600px] md:h-[650px]">
       <section
         id="header"
         class="w-full h-full block flex-wrap md:flex justify-between"
@@ -114,9 +114,9 @@
         </div>
       </section>
 
-      <section id="companies" class="bg-blue-50 md:mb-28 pt-6 md:pt-12">
+      <section id="companies" class="bg-fourth md:mb-28 pt-6 md:pt-12">
         <h1
-          class="text-center text-2xl md:text-4xl font-serif text-primary underline"
+          class="text-center text-2xl md:text-4xl font-serif text-third underline"
         >
           Trusted by Leading Businesses
         </h1>
@@ -410,16 +410,49 @@
         </div>
       </section>
 
+      <section id="services" class="md:py-16 bg-primary my-12 text-center py-12 px-8 md:px-32">
+        <h1 class="md:text-6xl text-5xl underline text-third font-serif md:mb-20">Our Professional Services</h1>
+
+        <div class="service-container w-full flex flex-wrap justify-between">
+          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+            <h2 class="md:text-4xl text-3xl">E-commerce Shoot</h2>
+            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Optimize, Sell, Impress</h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">
+              Elevate sales with captivating eCommerce photography that speaks
+              volumes.
+            </p>
+          </div>
+          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+            <h2 class="md:text-4xl text-3xl">Fashion Photoshoot</h2>
+            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Highlight your product</h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">Bring products to life with captivating video storytelling</p>
+          </div>
+          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+            <h2 class="md:text-4xl text-3xl">Model Photography</h2>
+            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Professional Imaging Solutions</h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">
+              Capturing corporate moments with professional precision and
+              creative finesse.
+            </p>
+          </div>
+          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8" >
+            <h2 class="md:text-4xl text-3xl">Product Video Shoot</h2>
+            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Highlight your product</h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">Bring products to life with captivating video storytelling</p>
+          </div>
+        </div>
+      </section>
+
       <section
-        id="service"
-        class="min-h-[600px] my-12 md:my-28 p-8 md:py-0 md:px-24 bg-black"
+        id="process"
+        class="min-h-[600px] md:my-28 px-8 md:py-0 md:px-24"
       >
         <div
-          class="service-container w-full h-full flex flex-wrap gap-0 md:p-12"
+          class="process-container w-full h-full flex flex-wrap gap-0 md:p-12"
         >
-          <div class="services-box w-full md:w-3/5">
+          <div class="process-box w-full md:w-3/5">
             <h1
-              class="md:text-6xl text-4xl font-serif text-third bold mb-8 md:mb-12 font-semibold"
+              class="md:text-6xl text-4xl font-serif text-third bold mb-8 md:mb-12 md:mt-8 font-semibold"
             >
               How it really works ?
             </h1>
@@ -435,7 +468,7 @@
                     what you want to shoot
                   </h2>
                   <svg
-                    class="w-4 hidden h-4"
+                    class="w-4 hidden md:inline-block h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -465,7 +498,7 @@
                     drop off products
                   </h2>
                   <svg
-                    class="w-4 hidden h-4"
+                    class="w-4 hidden md:inline-block h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -495,7 +528,7 @@
                     Product Photoshoot
                   </h2>
                   <svg
-                    class="w-4 hidden h-4"
+                    class="w-4 hidden md:inline-block h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -545,11 +578,11 @@
             </div>
           </div>
           <div
-            class="services-box hidden h-full md:flex align-bottom w-full md:w-2/5 relative"
+            class="process-box hidden h-full md:flex w-full md:w-2/5 relative"
           >
             <div
               style="box-shadow: 0 0 20px var(--third)"
-              class="service-img w-full rounded-xl overflow-hidden h-[550px] border-4 border-third"
+              class="process-img w-full rounded-xl overflow-hidden h-[550px] border-4 border-third"
             >
               <img src="../assest/services.jpg" alt="" />
             </div>
@@ -557,9 +590,9 @@
         </div>
       </section>
 
-      <section id="features" class="md:px-32 w-full my-16 md:my-28">
+      <section id="features" class="md:px-32 bg-primary w-full py-2 pb-8 md:py-28">
         <div
-          class="features-container md:bg-fourth md:border-2 border-third flex flex-wrap-reverse justify-between p-4 rounded-lg w-full min-h-[600px] md:h-[600px]"
+          class="features-container flex flex-wrap-reverse justify-between p-4 rounded-lg w-full min-h-[600px] md:h-[600px]"
         >
           <div
             class="feature-box w-full mt-8 md:mt-0 md:w-2/5 h-full border-2 border-third overflow-hidden rounded-lg"
@@ -584,7 +617,7 @@
               highest standards to ensure flawless and visually compelling
               images.
             </p>
-            
+
             <p
               class="text-sm md:text-base hidden md:block mt-2 md:mt-8 font-light text-secondary"
             >
@@ -606,7 +639,7 @@
       </section>
 
       <section
-        class="reviews w-full max-h-[600px] md:min-h-[600px] md:my-28 md:px-32 md:bg-black flex items-center justify-evenly"
+        class="reviews w-full max-h-[600px] md:min-h-[600px] md:my-28 md:px-32 flex items-center justify-evenly"
       >
         <div class="client-box-1 hidden md:block w-[15%] h-[80%]">
           <div class="client-1 w-full flex justify-end">
@@ -644,7 +677,7 @@
             150+ Happy Customers
           </h6>
           <h1
-            class="font-serif md:font-semibold text-third my-3 md:mt-0 md:mb-28 text-5xl md:text-6xl"
+            class="font-serif md:font-semibold text-third my-3 md:mt-0 mb-6 md:mb-28 text-5xl md:text-6xl"
           >
             Users Love Lushlens.
           </h1>
@@ -918,7 +951,7 @@
       </section>
     </main>
 
-    <footer class="w-full bg-black min-h-72 px-4 md:px-12">
+    <footer class="w-full bg-primary min-h-72 px-4 md:px-12">
       <div
         id="footer"
         class="py-4 md:py-12 border-b-[1px] border-secondary min-h-48"

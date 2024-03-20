@@ -112,7 +112,7 @@ logobox.forEach((item) => {
 
 
     for(let i = 0; i< 16; i++){
-        item.innerHTML += `<img class="mx-4 md:mx-8" src="../assest/logo-${imgtemp}.png" alt="">`;
+        item.innerHTML += `<div><img class="mx-4 md:mx-8" src="../assest/logo-${imgtemp}.png" alt=""></div>`;
         imgtemp++;
     }
 
