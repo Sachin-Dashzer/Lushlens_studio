@@ -6,7 +6,7 @@
   --primary: #222223;
   --secondary: hsl(0, 0%, 100%);
   --third: #fff278;
-  --fourth: #2a2a2a;
+  --fourth: black;
 }
 
 * {
@@ -91,7 +91,6 @@ button:hover:after {
 }
 
 .logos {
-  overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
@@ -143,7 +142,7 @@ button:hover:after {
     width: 120px;
   }
   .open {
-    height: 300px;
+    height: 260px;
   }
 }
 

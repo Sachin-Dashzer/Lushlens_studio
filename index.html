@@ -13,7 +13,7 @@
     />
   </head>
   <body class="bg-black text-secondary">
-    <header class="w-full bg-primary h-[650px]">
+    <header class="w-full md:bg-primary pb-[32px] px-[16px] md:p-0 h-[650px]">
       <section
         id="header"
         class="w-full h-full block flex-wrap md:flex justify-between"
@@ -32,9 +32,7 @@
               />
             </div>
 
-            <h1 class="mt-4 md:m-0 inline-block ">
-              Welcome to
-            </h1>
+            <h1 class="mt-4 md:m-0 inline-block">Welcome to</h1>
             <h2
               class="inline-block text-secondary translate-x-8 md:translate-x-40"
             >
@@ -70,7 +68,7 @@
             background-image: url(./assest//header.jpg);
             background-size: cover;
           "
-          class="image w-full h-2/5 md:w-4/6 md:h-full relative"
+          class="image w-full h-2/5 md:w-4/6 rounded-xl md:rounded-none md:h-full relative"
         >
           <div
             class="bottom-layer inline md:block md:absolute left-0 bottom-0 w-full h-[20%]"
@@ -86,21 +84,21 @@
     <main>
       <section
         id="count-container"
-        class="relative w-full min-h-48 my-8 px-4 md:py-8"
+        class="relative w-full min-h-48 py-[48px] px-[16px] md:px-0 md:py-[80px]"
       >
         <div
-          class="flex flex-wrap w-[80%] h-full items-center mx-auto my-6 justify-around"
+          class="flex flex-wrap-reverse w-[80%] h-full items-center mx-auto md:my-6 justify-around"
         >
-          <div>
+          <div class="hidden md:block">
             <ul
-              class="md:text-lg text-[17px] capitalize leading-7 md:leading-10 list-disc"
+              class="md:text-lg text-[17px] capitalize leading-7 md:leading-10 md:list-disc"
             >
               <li>Branding Agencies</li>
               <li>Private Photoshoots</li>
               <li>Supporting digital business</li>
             </ul>
           </div>
-          <div class="feature mt-8 md:mt-0">
+          <div class="feature my-4 md:my-0">
             <div class="counting text-third text-5xl md:text-6xl text-center">
               <h1 class="inline font-semibold md:font-bold">
                 <span>0</span>k+
@@ -108,13 +106,13 @@
             </div>
             <h2 class="text-xl md:text-lg md:mt-2">Pictures Clicked</h2>
           </div>
-          <div class="feature mt-8 md:mt-0">
+          <div class="feature my-4 md:my-0">
             <div class="counting text-third text-5xl md:text-6xl text-center">
               <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
             </div>
-            <h2 class="text-xl md:text-lg mt-2">Brands Serviced</h2>
+            <h2 class="text-xl md:text-lg md:mt-2">Brands Serviced</h2>
           </div>
-          <div class="feature mt-8 md:mt-0">
+          <div class="feature my-4 md:my-0">
             <div class="counting text-third text-5xl md:text-6xl text-center">
               <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
             </div>
@@ -123,25 +121,31 @@
         </div>
       </section>
 
-      <section id="companies" class="bg-fourth py-12 md:py-0 md:mb-28 md:pt-12">
+      <section
+        id="companies"
+        class="bg-primary py-[48px] px-[16px] md:p-0 md:mb-28 md:pt-12"
+      >
         <h1
-          class="text-center mb-8 md:mb-0 text-2xl md:text-4xl font-serif text-third"
+          class="text-center mb-8 md:mb-0 text-4xl font-bold md:text-4xl font-serif text-third"
         >
           Trusted by Leading Businesses
         </h1>
-        <div class="logos py-7 md:py-14">
+        <div class="logos overflow-y-hidden md:overflow-hidden md:py-14">
           <div class="logos-slide"></div>
 
           <div class="logos-slide"></div>
         </div>
       </section>
 
-      <section id="img-section" class="my-8 md:my-28 px-8 md:px-32">
+      <section
+        id="img-section"
+        class="py-[48px] px-[16px] md:p-0 md:my-28 md:px-32"
+      >
         <div
           class="first-box flex flex-wrap justify-between items-end mb-4 md:mb-12"
         >
           <h1
-            class="text-[42px] md:text-7xl mb-6 md:mb-0 border-b-2 capitalize font-serif text-third"
+            class="text-[36px] font-semibold md:text-7xl mb-6 md:mb-0 border-b-2 capitalize font-serif text-third"
           >
             our portfolio
           </h1>
@@ -441,17 +445,23 @@
 
       <section
         id="services"
-        class="md:py-16 bg-primary my-12 text-center py-12 px-8 md:px-32"
+        class="md:py-16 bg-primary text-center py-[48px] px-[16px] md:p-0 md:px-32"
       >
-        <h1 class="md:text-6xl text-5xl text-third font-serif md:mb-20">
+        <h1
+          class="md:text-6xl text-4xl font-bold text-third font-serif md:mb-20"
+        >
           Our Professional Services
         </h1>
 
-        <div class="service-container w-full flex flex-wrap justify-between">
+        <div
+          class="service-container w-full flex flex-wrap-reverse justify-between"
+        >
           <div
-            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+            class="service-box w-full md:w-1/4 px-8 md:pb-8 md:border-r-2 pt-8 md:border-third"
           >
-            <h2 class="md:text-4xl text-3xl">E-commerce Shoot</h2>
+            <h2 class="md:text-4xl text-2xl font-semibold md:font-normal">
+              E-commerce Shoot
+            </h2>
             <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
               Optimize, Sell, Impress
             </h5>
@@ -461,9 +471,11 @@
             </p>
           </div>
           <div
-            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+            class="service-box w-full md:w-1/4 px-8 md:pb-8 md:border-r-2 pt-8 md:border-third"
           >
-            <h2 class="md:text-4xl text-3xl">Fashion Photoshoot</h2>
+            <h2 class="md:text-4xl text-2xl font-semibold md:font-normal">
+              Fashion Photoshoot
+            </h2>
             <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
               Highlight your product
             </h5>
@@ -472,9 +484,11 @@
             </p>
           </div>
           <div
-            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+            class="service-box w-full md:w-1/4 px-8 md:pb-8 md:border-r-2 pt-8 md:border-third"
           >
-            <h2 class="md:text-4xl text-3xl">Model Photography</h2>
+            <h2 class="md:text-4xl text-2xl font-semibold md:font-normal">
+              Model Photography
+            </h2>
             <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
               Professional Imaging Solutions
             </h5>
@@ -484,9 +498,11 @@
             </p>
           </div>
           <div
-            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8"
+            class="service-box w-full md:w-1/4 px-8 md:pb-8 md:border-r-2 pt-8 md:border-third"
           >
-            <h2 class="md:text-4xl text-3xl">Product Video Shoot</h2>
+            <h2 class="md:text-4xl text-2xl font-semibold md:font-normal">
+              Product Video Shoot
+            </h2>
             <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
               Highlight your product
             </h5>
@@ -499,29 +515,29 @@
 
       <section
         id="process"
-        class="min-h-[600px] md:my-28 px-8 md:py-0 md:px-24"
+        class="md:min-h-[520px] md:my-28 py-[48px] px-[16px] md:p-0 md:px-24"
       >
         <div
-          class="process-container w-full h-full flex flex-wrap gap-0 md:p-12"
+          class="process-container w-full h-full flex flex-wrap gap-0 md:px-12"
         >
           <div class="process-box w-full md:w-3/5">
             <h1
-              class="md:text-6xl text-4xl font-serif text-third bold mb-8 md:mb-12 md:mt-8 font-semibold"
+              class="md:text-6xl text-4xl font-serif text-third bold mb-8 md:mb-12 font-semibold"
             >
               How it really works ?
             </h1>
 
             <div>
               <details
-                class="process-details md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+                class="process-details md:w-[70%] mt-8 h-10 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
               >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
-                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-2 md:p-4"
                 >
                   <h2 class="md:text-xl text-base">
-                    <span class="mr-4 text-third font-bold"> 1.</span> Tell us
-                    what you want to shoot
+                    <span class="md:mr-4 text-third font-bold"> 1.</span> Tell
+                    us what you want to shoot
                   </h2>
                   <svg
                     class="w-4 hidden md:inline-block h-4"
@@ -547,15 +563,15 @@
             </div>
             <div>
               <details
-                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+                class="process-details md:w-[70%] mt-8 h-10 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
               >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
-                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-2 md:p-4"
                 >
                   <h2 class="md:text-xl text-base">
-                    <span class="mr-4 text-third font-bold"> 2.</span> Ship or
-                    drop off products
+                    <span class="md:mr-4 text-third font-bold"> 2.</span> Ship
+                    or drop off products
                   </h2>
                   <svg
                     class="w-4 hidden md:inline-block h-4"
@@ -581,14 +597,14 @@
             </div>
             <div>
               <details
-                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+                class="process-details md:w-[70%] mt-8 h-10 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
               >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
-                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-2 md:p-4"
                 >
                   <h2 class="md:text-xl text-base">
-                    <span class="mr-4 text-third font-bold"> 3.</span> Studio
+                    <span class="md:mr-4 text-third font-bold"> 3.</span> Studio
                     Product Photoshoot
                   </h2>
                   <svg
@@ -614,14 +630,14 @@
             </div>
             <div>
               <details
-                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+                class="process-details md:w-[70%] mt-8 h-10 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
               >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
-                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
+                  class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-2 md:p-4"
                 >
                   <h2 class="md:text-xl text-base">
-                    <span class="mr-4 text-third font-bold"> 4.</span> Review
+                    <span class="md:mr-4 text-third font-bold"> 4.</span> Review
                     Photos. Pay. Download.
                   </h2>
                   <svg
@@ -652,7 +668,7 @@
           >
             <div
               style="box-shadow: 0 0 20px var(--third)"
-              class="process-img w-full rounded-xl overflow-hidden h-[550px] border-4 border-third"
+              class="process-img w-full rounded-xl overflow-hidden h-[500px] border-4 border-third"
             >
               <img src="./assest/services.jpg" alt="" />
             </div>
@@ -662,57 +678,57 @@
 
       <section
         id="features"
-        class="md:px-32 bg-primary w-full py-2 pb-8 md:py-28"
+        class="py-[48px] px-[16px] md:px-40 text-fourth w-full md:py-12"
       >
         <div
-          class="features-container flex flex-wrap-reverse justify-between p-4 rounded-lg w-full min-h-[600px] md:h-[600px]"
+          class="features-container bg-third flex flex-wrap justify-between rounded-3xl overflow-hidden w-full min-h-[600px] md:h-[600px]"
         >
-          <div
-            class="feature-box w-full mt-8 md:mt-0 md:w-2/5 h-full border-2 border-third overflow-hidden rounded-lg"
-          >
-            <img class="object-cover" src="./assest//camera.jpg" alt="" />
-          </div>
-          <div class="feature-box w-full md:w-3/5 md:p-8">
+          <div class="feature-box px-4 pt-4 w-full md:w-1/2 md:p-8">
             <h1
-              class="text-[38px] mb-8 md:mb-8 md:text-6xl text-third font-serif border-b-2"
+              class="text-5xl mb-6 md:mb-8 md:text-6xl font-serif font-semibold md:font-semibold border-b-2 border-fourth"
             >
               Our story behind the lens
             </h1>
-            <p
-              class="text-sm md:text-base mt-2 md:mt-8 font-light text-secondary"
-            >
-              LushLens Studio, located in the dynamic city of Delhi, is a
-              distinguished Photography Studio specializing in White Background
-              and e-commerce Photography. Our commitment to perfection is at the
-              heart of our approach, characterized by meticulous attention to
-              detail throughout the entire photographic process. From the
-              initial framing of shots to the final touches, we uphold the
-              highest standards to ensure flawless and visually compelling
-              images.
+            <p class="md:text-base mt-2 md:mt-8">
+              LushLens is a top photo studio in Delhi, famous for creating
+              amazing stories with great ideas and pictures. We work hard from
+              start to finish to make sure every photo looks perfect and really
+              stands out.
             </p>
+            <h3 class="text-2xl mt-4 font-semibold md:font-bold">
+              Choose Us for:
+            </h3>
 
-            <p
-              class="text-sm md:text-base hidden md:block mt-2 md:mt-8 font-light text-secondary"
-            >
-              Our unique aesthetic signature is defined by bright whites and
-              graphic composition, creating a visual impact that distinguishes
-              our work. We prioritize the use of soft, natural light, infusing a
-              natural and inviting quality into our photographs. Embracing a
-              collaborative ethos in production, we value the exchange of ideas
-              between our skilled photographers and esteemed clients,
-              considering it a vital element for a successful photoshoot. Beyond
-              image capture, we at LushLens Studio craft visual stories that
-              resonate, demonstrating our dedication to excellence, creative
-              collaboration, and a keen eye for detail. As a trusted partner, we
-              go the extra mile to bring our clients' visions to life through
-              the art of photography.
-            </p>
+            <ul class="list-disc ml-4">
+              <li class="mt-2 text-sm">
+                Collaborative approach, valuing client-photographer idea
+                exchange for successful shoots.
+              </li>
+              <li class="mt-2 text-sm">
+                Crafting visual stories and attention to detail.
+              </li>
+              <li class="mt-2 text-sm">
+                Our distinctive aesthetic with bright whites and graphic
+                composition for strong visual impact.
+              </li>
+              <li class="mt-2 text-sm">
+                Emphasis on soft, natural light to create inviting and
+                natural-looking photos.
+              </li>
+              <li class="mt-2 text-sm">Bringing your visions to life.</li>
+            </ul>
+          </div>
+
+          <div
+            class="feature-box w-full mt-8 md:mt-0 md:w-1/2 h-[300px] md:h-full border-2 border-third overflow-hidden"
+          >
+            <img class="object-cover" src="./assest//camera.jpg" alt="" />
           </div>
         </div>
       </section>
 
       <section
-        class="reviews w-full max-h-[600px] md:min-h-[600px] md:my-28 md:px-32 flex items-center justify-evenly"
+        class="reviews w-full max-h-[600px] md:min-h-[600px] py-[48px] px-[16px] md:p-0 md:py-20 md:px-32 flex items-center justify-evenly"
       >
         <div class="client-box-1 hidden md:block w-[15%] h-[80%]">
           <div class="client-1 w-full flex justify-end">
@@ -826,9 +842,11 @@
               </div>
             </div>
 
-            <div class="left-quote md:block hidden absolute top-4 left-8">
+            <div
+              class="left-quote md:block absolute top-0 left-4 md:top-4 md:left-8"
+            >
               <svg
-                class="w-12 h-16"
+                class="md:w-12 md:h-16 w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -839,9 +857,11 @@
               </svg>
             </div>
 
-            <div class="right-quote md:block hidden absolute bottom-4 right-8">
+            <div
+              class="right-quote md:block absolute bottom-0 right-8 md:bottom-4 md:right-8"
+            >
               <svg
-                class="w-12 h-16"
+                class="md:w-12 md:h-16 w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -887,7 +907,7 @@
 
       <section
         id="login"
-        class="w-full min-h-[600px] md:px-32 my-12 md:my-28 backdrop-blur-md text-secondary"
+        class="w-full min-h-[600px] py-[48px] px-[16px] md:p-0 md:px-32 md:my-28 backdrop-blur-md text-secondary"
       >
         <div
           style="
@@ -1022,7 +1042,9 @@
       </section>
     </main>
 
-    <footer class="w-full bg-primary min-h-72 px-4 md:px-12">
+    <footer
+      class="w-full bg-primary min-h-72 py-[48px] px-[16px] md:p-0 md:px-12"
+    >
       <div
         id="footer"
         class="py-4 md:py-12 border-b-[1px] border-secondary min-h-48"
