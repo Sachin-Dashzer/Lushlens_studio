@@ -13,14 +13,14 @@
     />
   </head>
   <body class="bg-black text-secondary">
-    <header class="w-full bg-primary h-[600px] md:h-[650px]">
+    <header class="w-full bg-primary h-[650px]">
       <section
         id="header"
         class="w-full h-full block flex-wrap md:flex justify-between"
       >
         <div class="w-full h-3/5 md:w-2/6 md:h-full relative">
           <div
-            class="content md:pl-44 md:pt-48 md:text-start block md:absolute top-0 left-0 z-20 text-[2.2rem] leading-tight md:text-[4rem] text-third md:leading-[4.5rem] font-bold font-serif"
+            class="content p-4 pt-0 md:p-0 md:pl-44 md:pt-48 md:text-start block md:absolute top-0 left-0 z-20 text-[2.2rem] leading-tight md:text-[4rem] text-third md:leading-[4.5rem] font-bold font-serif"
           >
             <div
               class="logo w-full flex justify-center md:absolute top-0 left-0"
@@ -32,28 +32,37 @@
               />
             </div>
 
-            <h1 class="pl-9 pt-4 md:pt-0 md:p-0 inline-block mt-0 md:0">
+            <h1 class="mt-4 md:m-0 inline-block ">
               Welcome to
             </h1>
             <h2
-              class="pl-9 md:p-0 inline-block text-secondary translate-x-8 md:translate-x-40"
+              class="inline-block text-secondary translate-x-8 md:translate-x-40"
             >
               Your Digital
             </h2>
-            <h2 class="pl-9 md:p-0 inline-block">Photography</h2>
+            <h2 class="inline-block">Photography</h2>
             <h2
-              class="pl-9 md:p-0 inline-block text-secondary translate-x-8 md:translate-x-40"
+              class="inline-block text-secondary translate-x-8 md:translate-x-40"
             >
               Journey!
             </h2>
 
-            <a href="#login">
-              <button
-                class="md:px-6 text-[12px] md:text-lg font-semibold md:w-[50%] md:py-3 px-3 py-3 block mx-auto my-0 mt-4 md:mt-6 border-2"
+            <div class="btn-box">
+              <a href="#img-section">
+                <button
+                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[45%] md:py-3 px-3 py-3 mt-4 md:mt-6 border-2"
+                >
+                  View portfolio
+                </button></a
               >
-                Let's connect
-              </button></a
-            >
+              <a href="#login">
+                <button
+                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[45%] md:py-3 px-3 py-3 mt-4 md:mt-6 border-2"
+                >
+                  Enquiry Now
+                </button></a
+              >
+            </div>
           </div>
         </div>
         <div
@@ -114,9 +123,9 @@
         </div>
       </section>
 
-      <section id="companies" class="bg-fourth md:mb-28 pt-6 md:pt-12">
+      <section id="companies" class="bg-fourth py-12 md:py-0 md:mb-28 md:pt-12">
         <h1
-          class="text-center text-2xl md:text-4xl font-serif text-third underline"
+          class="text-center mb-8 md:mb-0 text-2xl md:text-4xl font-serif text-third"
         >
           Trusted by Leading Businesses
         </h1>
@@ -128,7 +137,9 @@
       </section>
 
       <section id="img-section" class="my-8 md:my-28 px-8 md:px-32">
-        <div class="first-box flex flex-wrap justify-between items-end mb-4 md:mb-12">
+        <div
+          class="first-box flex flex-wrap justify-between items-end mb-4 md:mb-12"
+        >
           <h1
             class="text-[42px] md:text-7xl mb-6 md:mb-0 border-b-2 capitalize font-serif text-third"
           >
@@ -151,14 +162,18 @@
           </div>
         </div>
 
-        <div class="second-box w-full h-[450px] md:h-[620px] overflow-x-hidden md:overflow-hidden">
+        <div
+          class="second-box w-full h-[450px] md:h-[620px] overflow-x-hidden md:overflow-hidden"
+        >
           <div
-            class="photograph-container flex  relative w-full h-full transition-all duration-1000 ease-in-out"
+            class="photograph-container flex relative w-full h-full transition-all duration-1000 ease-in-out"
           >
             <div
               class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
             >
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
                 >
@@ -187,7 +202,9 @@
                   />
                 </div>
               </div>
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
                 >
@@ -221,7 +238,9 @@
             <div
               class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
             >
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
                 >
@@ -250,7 +269,9 @@
                   />
                 </div>
               </div>
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
                 >
@@ -284,7 +305,9 @@
             <div
               class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
             >
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
                 >
@@ -313,7 +336,9 @@
                   />
                 </div>
               </div>
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
                 >
@@ -347,7 +372,9 @@
             <div
               class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
             >
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
                 >
@@ -376,7 +403,9 @@
                   />
                 </div>
               </div>
-              <div class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between">
+              <div
+                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+              >
                 <div
                   class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
                 >
@@ -410,35 +439,60 @@
         </div>
       </section>
 
-      <section id="services" class="md:py-16 bg-primary my-12 text-center py-12 px-8 md:px-32">
-        <h1 class="md:text-6xl text-5xl underline text-third font-serif md:mb-20">Our Professional Services</h1>
+      <section
+        id="services"
+        class="md:py-16 bg-primary my-12 text-center py-12 px-8 md:px-32"
+      >
+        <h1 class="md:text-6xl text-5xl text-third font-serif md:mb-20">
+          Our Professional Services
+        </h1>
 
         <div class="service-container w-full flex flex-wrap justify-between">
-          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+          <div
+            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+          >
             <h2 class="md:text-4xl text-3xl">E-commerce Shoot</h2>
-            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Optimize, Sell, Impress</h5>
+            <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
+              Optimize, Sell, Impress
+            </h5>
             <p class="md:mt-4 text-third text-sm md:text-lg">
               Elevate sales with captivating eCommerce photography that speaks
               volumes.
             </p>
           </div>
-          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+          <div
+            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+          >
             <h2 class="md:text-4xl text-3xl">Fashion Photoshoot</h2>
-            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Highlight your product</h5>
-            <p class="md:mt-4 text-third text-sm md:text-lg">Bring products to life with captivating video storytelling</p>
+            <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
+              Highlight your product
+            </h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">
+              Bring products to life with captivating video storytelling
+            </p>
           </div>
-          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third">
+          <div
+            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8 md:border-r-2 md:border-third"
+          >
             <h2 class="md:text-4xl text-3xl">Model Photography</h2>
-            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Professional Imaging Solutions</h5>
+            <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
+              Professional Imaging Solutions
+            </h5>
             <p class="md:mt-4 text-third text-sm md:text-lg">
               Capturing corporate moments with professional precision and
               creative finesse.
             </p>
           </div>
-          <div class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8" >
+          <div
+            class="service-box w-full md:w-1/4 md:px-8 mt-12 md:mt-0 md:pb-8"
+          >
             <h2 class="md:text-4xl text-3xl">Product Video Shoot</h2>
-            <h5 class="mb-2 md:mb-0 md:my-4  border-b-2 inline-block text-sm">Highlight your product</h5>
-            <p class="md:mt-4 text-third text-sm md:text-lg">Bring products to life with captivating video storytelling</p>
+            <h5 class="mb-2 md:mb-0 md:my-4 border-b-2 inline-block text-sm">
+              Highlight your product
+            </h5>
+            <p class="md:mt-4 text-third text-sm md:text-lg">
+              Bring products to life with captivating video storytelling
+            </p>
           </div>
         </div>
       </section>
@@ -458,7 +512,9 @@
             </h1>
 
             <div>
-              <details class="process-details md:w-[70%] my-8 h-12 md:mb-12  transition-all duration-500 ease-in-out">
+              <details
+                class="process-details md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+              >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
                   class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
@@ -479,7 +535,9 @@
                     />
                   </svg>
                 </summary>
-                <p class="p-8 opacity-0 transition-all duration-500 ease-in-out ">
+                <p
+                  class="p-8 text-sm opacity-0 transition-all duration-500 ease-in-out"
+                >
                   Share product details and send reference images via
                   email/WhatsApp. Specify desired photography services: product
                   shoot, ghost mannequin, garment shoot, model photoshoot,
@@ -488,7 +546,9 @@
               </details>
             </div>
             <div>
-              <details class="process-details w-full md:w-[70%] my-8 h-12 md:mb-12 transition-all duration-500 ease-in-out">
+              <details
+                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+              >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
                   class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
@@ -509,7 +569,9 @@
                     />
                   </svg>
                 </summary>
-                <p class="p-8 opacity-0 transition-all duration-500 ease-in-out ">
+                <p
+                  class="p-8 text-sm opacity-0 transition-all duration-500 ease-in-out"
+                >
                   After confirming your order via email, WhatsApp, or call, ship
                   your products to our Delhi studio using your preferred
                   courier. Once the photoshoot is complete, we'll return your
@@ -518,7 +580,9 @@
               </details>
             </div>
             <div>
-              <details class="process-details w-full md:w-[70%] my-8 h-12 md:mb-12 transition-all duration-500 ease-in-out">
+              <details
+                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+              >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
                   class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
@@ -539,7 +603,9 @@
                     />
                   </svg>
                 </summary>
-                <p class="p-8 opacity-0 transition-all duration-500 ease-in-out ">
+                <p
+                  class="p-8 text-sm opacity-0 transition-all duration-500 ease-in-out"
+                >
                   Upon receiving your products, we'll send a confirmation via
                   WhatsApp or email. Subsequently, our skilled e-commerce
                   photographers will capture professional images in our studio.
@@ -547,7 +613,9 @@
               </details>
             </div>
             <div>
-              <details class="process-details w-full md:w-[70%] my-8 h-12 md:mb-12 transition-all duration-500 ease-in-out">
+              <details
+                class="process-details w-full md:w-[70%] my-8 h-20 md:h-12 md:mb-12 transition-all duration-500 ease-in-out"
+              >
                 <summary
                   style="box-shadow: 0 0 10px var(--third)"
                   class="flex justify-between items-center md:pr-8 list-none rounded-lg bg-primary border-[1px] border-third p-4"
@@ -568,7 +636,9 @@
                     />
                   </svg>
                 </summary>
-                <p class="p-8 opacity-0 transition-all duration-500 ease-in-out ">
+                <p
+                  class="p-8 text-sm opacity-0 transition-all duration-500 ease-in-out"
+                >
                   After completing the work, we'll share watermarked images on
                   Google Drive for your review. If satisfactory, we'll issue an
                   invoice for payment. Upon receipt, we'll deliver the
@@ -590,7 +660,10 @@
         </div>
       </section>
 
-      <section id="features" class="md:px-32 bg-primary w-full py-2 pb-8 md:py-28">
+      <section
+        id="features"
+        class="md:px-32 bg-primary w-full py-2 pb-8 md:py-28"
+      >
         <div
           class="features-container flex flex-wrap-reverse justify-between p-4 rounded-lg w-full min-h-[600px] md:h-[600px]"
         >
@@ -883,9 +956,7 @@
             <div
               class="form w-[90%] md:w-[80%] md:bg-yellow-50 text-secondary rounded-lg px-4 md:px-12 py-6"
             >
-              <h1 class="text-4xl font-serif text-center underline mb-8">
-                Let's talk
-              </h1>
+              <h1 class="text-4xl font-serif text-center mb-8">Let's talk</h1>
               <form action="" method="">
                 <label
                   class="inline h-12 align-middle mr-4 text-base md:text-xl font-normal text-third"
@@ -956,9 +1027,7 @@
         id="footer"
         class="py-4 md:py-12 border-b-[1px] border-secondary min-h-48"
       >
-        <h4
-          class="md:text-[2rem] text-xl underline text-third font-serif mb-4 md:mb-8"
-        >
+        <h4 class="md:text-[2rem] text-xl text-third font-serif mb-4 md:mb-8">
           Ready to take your ecommerce business to the next level? Contact us
           today!
         </h4>

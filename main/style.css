@@ -797,6 +797,26 @@ video {
   height: 100%;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[6400px\] {
+  height: 6400px;
+}
+
+.h-\[640px\] {
+  height: 640px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
 .max-h-\[600px\] {
   max-height: 600px;
 }
@@ -1098,6 +1118,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1112,6 +1142,14 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
 }
 
 .text-center {
@@ -1289,7 +1327,7 @@ video {
 :root {
   --primary: #222223;
   --secondary: hsl(0, 0%, 100%);
-  --third: #FFF278;
+  --third: #fff278;
   --fourth: #2a2a2a;
 }
 
@@ -1300,7 +1338,7 @@ video {
   text-decoration: none;
 }
 
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -1356,13 +1394,13 @@ button:hover:after {
   transition: all 0.5s;
 }
 
-#login .loginboxes .form{
+#login .loginboxes .form {
   background-color: #fae94d4d;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
 }
 
-#login .loginboxes .form input{
+#login .loginboxes .form input {
   width: 100%;
 }
 
@@ -1409,18 +1447,30 @@ button:hover:after {
   aspect-ratio: 3/2;
 }
 
-@media (max-width: 768px) {
-  .logos-slide img {
-    width: 120px;
-  }
+.open {
+  height: 200px;
+}
+
+.open p {
+  opacity: 1;
 }
 
 .open {
   height: 200px;
 }
 
-.open p{
+.open p {
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .logos-slide img {
+    width: 120px;
+  }
+
+  .open {
+    height: 300px;
+  }
 }
 
 .hover\:scale-125:hover {
@@ -1432,6 +1482,10 @@ button:hover:after {
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
+  }
+
+  .md\:m-0 {
+    margin: 0px;
   }
 
   .md\:my-28 {
@@ -1511,6 +1565,10 @@ button:hover:after {
 
   .md\:h-1\/2 {
     height: 50%;
+  }
+
+  .md\:h-12 {
+    height: 3rem;
   }
 
   .md\:h-6 {
@@ -1607,6 +1665,14 @@ button:hover:after {
 
   .md\:w-\[86\.3333\%\] {
     width: 86.3333%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
   }
 
   .md\:translate-x-40 {
@@ -1826,3 +1892,4 @@ button:hover:after {
     line-height: 1.625;
   }
 }
+

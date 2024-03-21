@@ -5,7 +5,7 @@
 :root {
   --primary: #222223;
   --secondary: hsl(0, 0%, 100%);
-  --third: #FFF278;
+  --third: #fff278;
   --fourth: #2a2a2a;
 }
 
@@ -15,9 +15,8 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-body{
+body {
   font-family: "Poppins", sans-serif;
-
 }
 img {
   width: 100%;
@@ -74,26 +73,13 @@ button:hover:after {
   transition: all 0.5s;
 }
 
-
-
-
-
-#login .loginboxes .form{
-
-    background-color: #fae94d4d;
-    backdrop-filter: blur(4px);
-
+#login .loginboxes .form {
+  background-color: #fae94d4d;
+  backdrop-filter: blur(4px);
 }
-#login .loginboxes .form input{
-
+#login .loginboxes .form input {
   width: 100%;
 }
-
-
-
-
-
-
 
 @keyframes slide {
   from {
@@ -112,7 +98,6 @@ button:hover:after {
   justify-content: space-between;
 }
 
-
 .logos:hover .logos-slide {
   animation-play-state: paused;
 }
@@ -127,34 +112,38 @@ button:hover:after {
   margin-right: 50px;
 }
 .logos-slide div {
-
   background-color: var(--secondary);
   border-radius: 10%;
   padding: 10px;
-
 }
 .logos-slide img {
   width: 200px;
   aspect-ratio: 3/2;
 }
 
+.open {
+  height: 200px;
+}
+
+.open p {
+  opacity: 1;
+}
+.open {
+  height: 200px;
+}
+
+.open p {
+  opacity: 1;
+}
+
 
 
 @media (max-width: 768px) {
-  
-.logos-slide img {
-  width: 120px;
-}
-}
-
-
-
-
-
-.open {
-  height: 200px; 
+  .logos-slide img {  
+    width: 120px;
+  }
+  .open {
+    height: 300px;
+  }
 }
 
-.open p{
-  opacity: 1;
-}
