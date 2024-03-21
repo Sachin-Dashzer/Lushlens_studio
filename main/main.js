@@ -127,3 +127,20 @@ logobox.forEach((item) => {
 
 
 
+
+const details_box = document.querySelectorAll(".process-details");
+
+
+details_box.forEach((item) => {
+
+    item.addEventListener('click', () => {
+
+        item.classList.toggle("open");
+
+    })
+
+
+
+});
+
+

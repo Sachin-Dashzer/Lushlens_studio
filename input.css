@@ -146,3 +146,15 @@ button:hover:after {
   width: 120px;
 }
 }
+
+
+
+
+
+.open {
+  height: 200px; 
+}
+
+.open p{
+  opacity: 1;
+}
