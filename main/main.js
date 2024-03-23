@@ -72,15 +72,15 @@ img_section.forEach((item, i) => {
 })
 
 
-setInterval(() => {
+// setInterval(() => {
 
-    if (img_section_img.length == utemp) {
-        utemp = 0;
-    }
-    img_slider(utemp);
-    utemp++;
+//     if (img_section_img.length == utemp) {
+//         utemp = 0;
+//     }
+//     img_slider(utemp);
+//     utemp++;
 
-}, 5000);
+// }, 1000);
 
 
 
@@ -105,7 +105,7 @@ setInterval(() => {
 
 
 
-let logobox = document.querySelectorAll("#companies .logos .logos-slide");
+let logobox = document.querySelectorAll(".logos .logos-slide");
 let imgtemp = 1;
 
 logobox.forEach((item) => {

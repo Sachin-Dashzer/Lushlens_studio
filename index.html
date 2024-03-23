@@ -13,49 +13,45 @@
     />
   </head>
   <body class="bg-black text-secondary">
-    <header class="w-full md:bg-primary pb-[32px] px-[16px] md:p-0 h-[650px]">
+    <header
+      class="w-full md:bg-primary pb-[32px] px-[16px] md:p-0 md:h-[700px]"
+    >
       <section
         id="header"
-        class="w-full h-full block flex-wrap md:flex justify-between"
+        class="w-full h-full block flex-wrap md:pl-32 md:flex justify-between"
       >
-        <div class="w-full h-3/5 md:w-2/6 md:h-full relative">
-          <div
-            class="content p-4 pt-0 md:p-0 md:pl-44 md:pt-48 md:text-start block md:absolute top-0 left-0 z-20 text-[2.2rem] leading-tight md:text-[4rem] text-third md:leading-[4.5rem] font-bold font-serif"
-          >
-            <div
-              class="logo w-full flex justify-center md:absolute top-0 left-0"
-            >
-              <img
-                src="./assest/logo.png"
-                alt=""
-                class="md:w-[250px] w-[150px] aspect-video"
-              />
-            </div>
+        <div class="w-full h-3/5 md:w-2/6 md:h-full">
+          <div class="website-logo w-3/5">
+            <img src="./assest//logo.png" alt="" />
+          </div>
 
-            <h1 class="mt-4 md:m-0 inline-block">Welcome to</h1>
+          <div
+            class="content w-full md:w-[750px] mt-2 md:mt-6 md:pl-32 md:absolute md:z-20"
+          >
             <h2
-              class="inline-block text-secondary translate-x-8 md:translate-x-40"
+              class="md:text-7xl text-4xl font-serif font-bold md:leading-[90px]"
             >
-              Your Digital
+              Take <span class="text-third">your</span><br /><span
+                class="text-third"
+              >
+                online </span
+              >store<br />to the <span class="text-third">next level </span>
             </h2>
-            <h2 class="inline-block">Photography</h2>
-            <h2
-              class="inline-block text-secondary translate-x-8 md:translate-x-40"
-            >
-              Journey!
-            </h2>
+            <h5 class="md:text-2xl mt-3 mb-2">
+              with our professional product photography
+            </h5>
 
             <div class="btn-box">
               <a href="#img-section">
                 <button
-                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[45%] md:py-3 px-3 py-3 mt-4 md:mt-6 border-2"
+                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[35%] md:py-3 px-3 py-3 mt-4 mr-3 md:mt-6 border-2"
                 >
                   View portfolio
                 </button></a
               >
               <a href="#login">
                 <button
-                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[45%] md:py-3 px-3 py-3 mt-4 md:mt-6 border-2"
+                  class="md:px-6 text-[12px] md:text-base font-semibold md:w-[35%] md:py-3 px-3 py-3 mt-4 md:mt-6 border-2"
                 >
                   Enquiry Now
                 </button></a
@@ -68,7 +64,7 @@
             background-image: url(./assest//header.jpg);
             background-size: cover;
           "
-          class="image w-full h-2/5 md:w-4/6 rounded-xl md:rounded-none md:h-full relative"
+          class="image w-full h-[250px] mt-8 md:mt-0 md:w-4/6 rounded-xl md:rounded-none md:h-full relative"
         >
           <div
             class="bottom-layer inline md:block md:absolute left-0 bottom-0 w-full h-[20%]"
@@ -83,74 +79,95 @@
 
     <main>
       <section
-        id="count-container"
-        class="relative w-full min-h-48 py-[48px] px-[16px] md:px-0 md:py-[80px]"
+        id="counting"
+        class="bg-fourth py-[40px] px-[16px] md:px-32 md:py-20"
       >
         <div
-          class="flex flex-wrap-reverse w-[80%] h-full items-center mx-auto md:my-6 justify-around"
+          class="companies md:h-[330px] w-full flex flex-wrap justify-between border-b-[1px] border-secondary"
         >
-          <div class="hidden md:block">
-            <ul
-              class="md:text-lg text-[17px] capitalize leading-7 md:leading-10 md:list-disc"
+          <div class="companies-discription md:w-1/2 w-full h-full md:p-4">
+            <h4 class="md:text-3xl text-[16px] font-semibold text-third">
+              TRUSTED GROWTH PARTNER
+            </h4>
+            <h2
+              class="md:text-5xl text-[26px] font-semibold mt-4 md:font-serif"
             >
-              <li>Branding Agencies</li>
-              <li>Private Photoshoots</li>
-              <li>Supporting digital business</li>
-            </ul>
+              Thousands of ecommerce business use TekiPost to automate there
+              shipping process
+            </h2>
           </div>
-          <div class="feature my-4 md:my-0">
-            <div class="counting text-third text-5xl md:text-6xl text-center">
-              <h1 class="inline font-semibold md:font-bold">
-                <span>0</span>k+
-              </h1>
+          <div class="companies-logo md:w-1/2 w-full h-full py-8">
+            <div
+              class="logos overflow-y-hidden md:overflow-hidden flex-row md:flex-col"
+            >
+              <div class="logos-slide"></div>
+
+              <div class="logos-slide"></div>
             </div>
-            <h2 class="text-xl md:text-lg md:mt-2">Pictures Clicked</h2>
-          </div>
-          <div class="feature my-4 md:my-0">
-            <div class="counting text-third text-5xl md:text-6xl text-center">
-              <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
-            </div>
-            <h2 class="text-xl md:text-lg md:mt-2">Brands Serviced</h2>
-          </div>
-          <div class="feature my-4 md:my-0">
-            <div class="counting text-third text-5xl md:text-6xl text-center">
-              <h1 class="inline font-semibold md:font-bold"><span>0</span>+</h1>
-            </div>
-            <h2 class="text-xl md:text-lg md:mt-2">Happy Clients</h2>
           </div>
         </div>
-      </section>
+        <div class="countbox w-full">
+          <div
+            class="flex flex-wrap-reverse w-full h-full items-center md:p-6 mx-auto mt-6 justify-between"
+          >
+            <div class="hidden md:block">
+              <ul
+                class="md:text-lg text-[17px] capitalize leading-7 md:leading-10 md:list-disc"
+              >
+                <li>Branding Agencies</li>
+                <li>Private Photoshoots</li>
+                <li>Supporting digital business</li>
+              </ul>
+            </div>
 
-      <section
-        id="companies"
-        class="bg-primary py-[48px] px-[16px] md:p-0 md:mb-28 md:pt-12"
-      >
-        <h1
-          class="text-center mb-8 md:mb-0 text-4xl font-bold md:text-4xl font-serif text-third"
-        >
-          Trusted by Leading Businesses
-        </h1>
-        <div class="logos overflow-y-hidden md:overflow-hidden md:py-14">
-          <div class="logos-slide"></div>
-
-          <div class="logos-slide"></div>
+            <div
+              class="feature my-4 w-1/2 md:w-auto flex-shrink-0 text-center mx-auto md:mx-0 md:my-0"
+            >
+              <div class="counting text-third text-4xl md:text-6xl text-center">
+                <h1 class="inline font-semibold md:font-bold">
+                  <span>0</span>+
+                </h1>
+              </div>
+              <h2 class="text-sm md:text-lg md:mt-2">Brands Serviced</h2>
+            </div>
+            <div
+              class="feature my-4 w-1/2 md:w-auto flex-shrink-0 text-center mx-auto md:mx-0 md:my-0"
+            >
+              <div class="counting text-third text-4xl md:text-6xl text-center">
+                <h1 class="inline font-semibold md:font-bold">
+                  <span>0</span>+
+                </h1>
+              </div>
+              <h2 class="text-sm md:text-lg md:mt-2">Happy Clients</h2>
+            </div>
+            <div
+              class="feature my-4 w-1/2 md:w-auto flex-shrink-0 text-center mx-auto md:mx-0 md:my-0"
+            >
+              <div class="counting text-third text-4xl md:text-6xl text-center">
+                <h1 class="inline font-semibold md:font-bold">
+                  <span>0</span>k+
+                </h1>
+              </div>
+              <h2 class="text-sm md:text-lg md:mt-2">Pictures Clicked</h2>
+            </div>
+          </div>
         </div>
       </section>
 
       <section
         id="img-section"
-        class="py-[48px] px-[16px] md:p-0 md:my-28 md:px-32"
+        class="py-[48px] bg-primary md:p-0 md:py-20 md:px-32"
       >
         <div
-          class="first-box flex flex-wrap justify-between items-end mb-4 md:mb-12"
+          class="first-box px-[16px] md:px-0 flex flex-wrap justify-between items-end mb-4 md:mb-12"
         >
           <h1
-            class="text-[36px] font-semibold md:text-7xl mb-6 md:mb-0 border-b-2 capitalize font-serif text-third"
+            class="text-[36px] font-semibold md:text-7xl mb-4 md:mb-0 capitalize font-serif text-third"
           >
             our portfolio
           </h1>
 
-          <div class="btn-section">
+          <div class="btn-section pb-4">
             <button class="px-2 py-1 font-semibold text-sm my-1 mr-2">
               E-Commerce
             </button>
@@ -167,276 +184,360 @@
         </div>
 
         <div
-          class="second-box w-full h-[450px] md:h-[620px] overflow-x-hidden md:overflow-hidden"
+          class="second-box w-full h-[1020px] overflow-x-hidden md:overflow-hidden"
         >
           <div
             class="photograph-container flex relative w-full h-full transition-all duration-1000 ease-in-out"
           >
             <div
-              class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
+              class="photograph-box absolute grid w-full h-full md:py-8"
             >
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//back.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//eccom/130A7236 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//eccom/DSC00427 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC07859 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC08804.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC09261.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC_9406 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/130A7236 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC00427 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//eccom/DSC07859 copy.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
             </div>
 
             <div
-              class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
+              class="photograph-box absolute grid w-full h-full md:py-8"
             >
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//back.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//back.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//models/DSC07637.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//models/DSC08195.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC08258.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC08304.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC08341.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC09851.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC07637.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC08195.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//models/DSC08258.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
             </div>
 
             <div
-              class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
+              class="photograph-box absolute grid w-full h-full md:py-8"
             >
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//products/_30A8823.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//back.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//products/DSC06344.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/DSC07306.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/DSC07531.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest/products/DSC_3790.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/DSC_3880.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/_30A8823.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/DSC06344.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//products/DSC07306.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
             </div>
 
             <div
-              class="photograph-box absolute flex w-full h-full gap-3 flex-shrink-0 flex-col"
+              class="photograph-box absolute grid w-full h-full md:py-8"
             >
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
               <div
-                class="imgbox w-full md:h-1/2 flex flex-wrap md:flex-nowrap gap-3 justify-between"
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
               >
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-[86.3333%] border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//back.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
-                <div
-                  class="image cursor-pointer border-4 w-[90%] md:w-2/3 border-third overflow-hidden"
-                >
-                  <img
-                    src="./assest//header.jpg"
-                    alt=""
-                    class="hover:scale-125 transition-all duration-500 ease-in-out"
-                  />
-                </div>
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//back.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
+              </div>
+              <div
+                class="image cursor-pointer pb-2 px-2 md:p-0 w-full md:border-4 border-third overflow-hidden"
+              >
+                <img
+                  src="./assest//header.jpg"
+                  alt=""
+                  class="md:hover:scale-125 transition-all duration-500 ease-in-out"
+                />
               </div>
             </div>
           </div>
