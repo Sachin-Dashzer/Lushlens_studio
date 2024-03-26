@@ -72,36 +72,42 @@ img_section.forEach((item, i) => {
 })
 
 
-// setInterval(() => {
-
-//     if (img_section_img.length == utemp) {
-//         utemp = 0;
-//     }
-//     img_slider(utemp);
-//     utemp++;
-
-// }, 1000);
-
-
-
-
 const comment_section = document.querySelector(".comment-moving-box");
 const comments = document.querySelectorAll(".comment-moving-box .comment-box");
+const comment_btn = document.querySelectorAll(".comment-slider-btn");
 let ctemp = 0;
-setInterval(() => {
 
+comment_btn.forEach((item , i) => {
 
-    if (comments.length == ctemp) {
-        ctemp = 0;
+    item.addEventListener('click', () => {
+        comment_slider(i);
+    });
+});
+
+function comment_slider(i){
+
+    if (i == 0) {
+        ctemp++;
+    }
+    else {
+        ctemp--;
     }
 
+
+    if(ctemp == comments.length){
+        ctemp = 0;
+    }
+    if(ctemp < 0){
+        ctemp = comments.length - 1;
+    }
 
     finalposition = -ctemp * 100 + '%';
     comment_section.style.transform = 'translateY(' + finalposition + ')';
 
-    ctemp++;
 
-}, 5000);
+
+}
+
 
 
 
@@ -129,13 +135,14 @@ logobox.forEach((item) => {
 
 
 const details_box = document.querySelectorAll(".process-details");
+const details_text = document.querySelectorAll(".process-text");
 
 
-details_box.forEach((item) => {
+details_box.forEach((item , i) => {
 
     item.addEventListener('click', () => {
 
-        item.classList.toggle("open");
+        details_text[i].classList.toggle("open");
 
     })
 

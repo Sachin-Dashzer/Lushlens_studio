@@ -125,35 +125,15 @@ button:hover:after {
   aspect-ratio: 3/2;
 }
 
-
-
-
-
-
-.photograph-box{
+.photograph-box {
   /* grid-template-rows: auto auto auto; */
-  grid-template-columns:  30% 35% 30% ;
+  grid-template-columns: 30% 35% 30%;
   row-gap: 10px;
   column-gap: 10px;
-
 }
-
-
-
-
-
-
-
 
 .open {
-  height: 200px;
-}
-
-.open p {
-  opacity: 1;
-}
-.open {
-  height: 200px;
+  height: 120px;
 }
 
 .open p {
@@ -172,16 +152,11 @@ button:hover:after {
     aspect-ratio: 4/2;
   }
 
-
-  
-
-
-.photograph-box{
-  grid-template-columns: auto auto;
-
-}
+  .photograph-box {
+    grid-template-columns: auto auto;
+  }
 
   .open {
-    height: 260px;
+    height: 200px;
   }
 }
