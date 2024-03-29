@@ -648,10 +648,6 @@ video {
   margin-left: 1rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
 .mr-12 {
   margin-right: 3rem;
 }
@@ -852,10 +848,6 @@ video {
   width: 91%;
 }
 
-.w-\[94\%\] {
-  width: 94%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1014,6 +1006,11 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
@@ -1208,30 +1205,6 @@ video {
   text-transform: capitalize;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-tight {
-  line-height: 1.25;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-\[50\] {
-  line-height: 50;
-}
-
-.leading-\[50px\] {
-  line-height: 50px;
-}
-
 .text-fourth {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1245,11 +1218,6 @@ video {
 .text-third {
   --tw-text-opacity: 1;
   color: rgb(255 242 120 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(34 34 35 / var(--tw-text-opacity));
 }
 
 .outline-none {
@@ -1480,10 +1448,6 @@ button:hover:after {
     z-index: 20;
   }
 
-  .md\:m-3 {
-    margin: 0.75rem;
-  }
-
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1502,11 +1466,6 @@ button:hover:after {
   .md\:my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
-
-  .md\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
   }
 
   .md\:mb-0 {
@@ -1547,10 +1506,6 @@ button:hover:after {
 
   .md\:mt-2 {
     margin-top: 0.5rem;
-  }
-
-  .md\:mt-3 {
-    margin-top: 0.75rem;
   }
 
   .md\:mt-4 {
@@ -1677,12 +1632,12 @@ button:hover:after {
     width: 750px;
   }
 
-  .md\:w-auto {
-    width: auto;
-  }
-
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:flex-col {
@@ -1810,21 +1765,6 @@ button:hover:after {
     padding-bottom: 2rem;
   }
 
-  .md\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
-  .md\:px-44 {
-    padding-left: 11rem;
-    padding-right: 11rem;
-  }
-
-  .md\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1847,14 +1787,6 @@ button:hover:after {
 
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pl-8 {
-    padding-left: 2rem;
-  }
-
-  .md\:pr-20 {
-    padding-right: 5rem;
   }
 
   .md\:text-center {
@@ -1913,11 +1845,6 @@ button:hover:after {
     line-height: 1.75rem;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:font-bold {
     font-weight: 700;
   }
@@ -1932,10 +1859,6 @@ button:hover:after {
 
   .md\:leading-\[90px\] {
     line-height: 90px;
-  }
-
-  .md\:leading-relaxed {
-    line-height: 1.625;
   }
 
   .md\:leading-snug {
