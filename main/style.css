@@ -624,6 +624,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.-ml-\[14px\] {
+  margin-left: -14px;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1008,11 +1012,6 @@ video {
   background-color: transparent;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1393,7 +1392,7 @@ button:hover:after {
 }
 
 .open {
-  height: 120px;
+  height: 110px;
 }
 
 .open p {
@@ -1419,7 +1418,7 @@ button:hover:after {
   }
 
   .open {
-    height: 200px;
+    height: 190px;
   }
 }
 
@@ -1486,6 +1485,10 @@ button:hover:after {
 
   .md\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .md\:ml-0 {
+    margin-left: 0px;
   }
 
   .md\:mr-10 {

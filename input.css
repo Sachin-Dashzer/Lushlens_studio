@@ -129,7 +129,7 @@ button:hover:after {
 }
 
 .open {
-  height: 120px;
+  height: 110px;
 }
 
 .open p {
@@ -153,6 +153,6 @@ button:hover:after {
   }
 
   .open {
-    height: 200px;
+    height: 190px;
   }
 }
