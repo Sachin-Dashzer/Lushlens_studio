@@ -154,7 +154,14 @@ button:hover:after {
 
   .photograph-box {
     grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 6px;
   }
+  .photograph-box .image img {
+
+    aspect-ratio: 3/5;
+  }
+  
 
   .open {
     height: 190px;

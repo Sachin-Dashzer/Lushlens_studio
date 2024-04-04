@@ -744,8 +744,8 @@ video {
   height: 10%;
 }
 
-.h-\[1020px\] {
-  height: 1020px;
+.h-\[1220px\] {
+  height: 1220px;
 }
 
 .h-\[150px\] {
@@ -786,26 +786,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[1120px\] {
-  height: 1120px;
-}
-
-.h-\[120px\] {
-  height: 120px;
-}
-
-.h-\[1320px\] {
-  height: 1320px;
-}
-
-.h-\[1220px\] {
-  height: 1220px;
 }
 
 .max-h-\[600px\] {
@@ -1074,6 +1054,11 @@ video {
   padding-right: 16px;
 }
 
+.px-\[4px\] {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1112,10 +1097,6 @@ video {
 .py-\[48px\] {
   padding-top: 48px;
   padding-bottom: 48px;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pb-4 {
@@ -1439,6 +1420,13 @@ button:hover:after {
 
   .photograph-box {
     grid-template-columns: auto auto;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 6px;
+  }
+
+  .photograph-box .image img {
+    aspect-ratio: 3/5;
   }
 
   .open {
