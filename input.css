@@ -161,7 +161,13 @@ button:hover:after {
 
     aspect-ratio: 3/5;
   }
-  
+  .model-photograph .image img {
+
+    aspect-ratio: 4/4;
+    object-fit: cover;
+
+
+  }
 
   .open {
     height: 190px;

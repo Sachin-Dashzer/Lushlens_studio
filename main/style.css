@@ -1429,6 +1429,11 @@ button:hover:after {
     aspect-ratio: 3/5;
   }
 
+  .model-photograph .image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
   .open {
     height: 190px;
   }
@@ -1821,11 +1826,6 @@ button:hover:after {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-6xl {
