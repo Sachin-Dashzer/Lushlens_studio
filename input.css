@@ -123,9 +123,13 @@ button:hover:after {
 
 .photograph-box {
   /* grid-template-rows: auto auto auto; */
-  grid-template-columns: 30% 35% 30%;
+  grid-template-columns: auto auto auto;
   row-gap: 10px;
   column-gap: 10px;
+}
+.photograph-box .image img {
+
+  aspect-ratio: 4/4;
 }
 
 .open {
