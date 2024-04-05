@@ -226,7 +226,6 @@ function sendGmail() {
 
     emailjs.send(serviceId, templateId, params)
         .then(res => {
-            window.location.href = "https://www.bing.com/";
             alert("Email Sent Successfully");
         })
         .catch();
