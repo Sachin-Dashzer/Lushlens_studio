@@ -191,9 +191,8 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
         user_phone: toPhone
     })
         .then(function (response) {
-            console.log("Email sent successfully", response);
-            alert("Message Sent Successfully. We contact you very shortly...");
             form.reset(); 
+            alert("Message Sent Successfully. We contact you very shortly...");
         }, function (error) {
             console.error("Error sending email", error);
         });
