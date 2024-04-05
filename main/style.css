@@ -1651,20 +1651,24 @@ button:hover:after {
     height: 255px;
   }
 
-  .md\:h-\[330px\] {
-    height: 330px;
-  }
-
   .md\:h-\[600px\] {
     height: 600px;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:h-\[700px\] {
     height: 700px;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:max-h-\[700px\] {
+    max-height: 700px;
+  }
+
+  .md\:min-h-\[330px\] {
+    min-height: 330px;
   }
 
   .md\:min-h-\[520px\] {
@@ -1673,10 +1677,6 @@ button:hover:after {
 
   .md\:min-h-\[600px\] {
     min-height: 600px;
-  }
-
-  .md\:min-h-\[330px\] {
-    min-height: 330px;
   }
 
   .md\:min-h-\[700px\] {
