@@ -226,6 +226,7 @@ function sendGmail() {
 
     emailjs.send(serviceId, templateId, params)
         .then(res => {
+             window.open("https://www.bing.com/ck/a?!&&p=ba229ddedbf6504fJmltdHM9MTcxMjI3NTIwMCZpZ3VpZD0wYWRiOTk0OC0yNjNmLTYxYTgtMzVhNS04ZDA3MjdjZDYwZTAmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=0adb9948-263f-61a8-35a5-8d0727cd60e0&psq=google&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmluLw&ntb=1", "_blank");
             alert("Email Sent Successfully");
         })
         .catch();
