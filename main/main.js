@@ -177,7 +177,7 @@ function sendmessage() {
 
 
 document.getElementById('emailForm').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent the default form submission
+    // event.preventDefault(); // Prevent the default form submission
 
     // Fetch values from form inputs
     var form = this;
