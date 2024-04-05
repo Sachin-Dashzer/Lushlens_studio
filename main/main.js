@@ -157,7 +157,7 @@ function sendmessage() {
 
     let message = "Hey I'm looking for photography services";
 
-    var url = "https://wa.me/" + number + "?text=" + "Name : " + message + "%0a";
+    var url = "https://wa.me/" + number + "?text=" + message + "%0a";
 
     window.open(url, '_blank').focus();
 
