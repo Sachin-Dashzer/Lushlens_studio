@@ -33,7 +33,7 @@ window.addEventListener('scroll', function (event) {
 
 
 
-            num = false;
+        num = false;
     }
 
 });
@@ -77,14 +77,14 @@ const comments = document.querySelectorAll(".comment-moving-box .comment-box");
 const comment_btn = document.querySelectorAll(".comment-slider-btn");
 let ctemp = 0;
 
-comment_btn.forEach((item , i) => {
+comment_btn.forEach((item, i) => {
 
     item.addEventListener('click', () => {
         comment_slider(i);
     });
 });
 
-function comment_slider(i){
+function comment_slider(i) {
 
     if (i == 0) {
         ctemp++;
@@ -94,10 +94,10 @@ function comment_slider(i){
     }
 
 
-    if(ctemp == comments.length){
+    if (ctemp == comments.length) {
         ctemp = 0;
     }
-    if(ctemp < 0){
+    if (ctemp < 0) {
         ctemp = comments.length - 1;
     }
 
@@ -117,15 +117,15 @@ let imgtemp = 1;
 logobox.forEach((item) => {
 
 
-    for(let i = 0; i< 16; i++){
+    for (let i = 0; i < 16; i++) {
         item.innerHTML += `<div><img class="mx-4 md:mx-8" src="../assest/logo-${imgtemp}.png" alt=""></div>`;
         imgtemp++;
     }
 
 
-    if(imgtemp == 32){
+    if (imgtemp == 32) {
         imgtemp = 1;
-    
+
     }
 
 })
@@ -138,16 +138,99 @@ const details_box = document.querySelectorAll(".process-details");
 const details_text = document.querySelectorAll(".process-text");
 
 
-details_box.forEach((item , i) => {
+details_box.forEach((item, i) => {
 
     item.addEventListener('click', () => {
 
         details_text[i].classList.toggle("open");
 
     })
-
-
-
 });
 
 
+
+
+
+function sendmessage() {
+
+    const number = "+919717150994";
+
+    let message = "Hey I'm looking for photography services";
+
+    var url = "https://wa.me/" + number + "?text=" + "Name : " + message + "%0a";
+
+    window.open(url, '_blank').focus();
+
+}
+
+
+
+
+(function () {
+
+    emailjs.init("345KajufdsDWWtYlj");
+
+})();
+
+
+
+
+
+document.getElementById('emailForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Fetch values from form inputs
+    var form = this;
+    var toName = form['user_name'].value;
+    var toEmail = form['user_email'].value;
+    var toPhone = form['user_phone'].value;
+
+    emailjs.send("service_5by6eil", "template_cub46ry", {
+        user_name: toName,
+        user_email: toEmail,
+        user_phone: toPhone
+    })
+        .then(function (response) {
+            console.log("Email sent successfully", response);
+            alert("Message Sent Successfully. We contact you very shortly...");
+            form.reset(); 
+        }, function (error) {
+            console.error("Error sending email", error);
+        });
+});
+
+
+
+
+
+
+
+
+
+
+function sendGmail() {
+
+    console.log("massa");
+
+
+
+    var params = {
+
+        user_name: document.querySelector("#user_name").value,
+        user_email: document.querySelector("#user_email").value,
+        user_phone: document.querySelector("#user_phone").value,
+    };
+
+    var serviceId = "service_5by6eil";
+
+    var templateId = "template_cub46ry";
+
+    emailjs.send(serviceId, templateId, params)
+        .then(res => {
+            alert("Email Sent Successfully");
+        })
+        .catch();
+
+
+
+}
